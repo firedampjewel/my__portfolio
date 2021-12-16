@@ -1,0 +1,590 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .column {width:750px}
+    
+    
+    .mmenu{
+        display: block;
+      }
+      
+    .out{
+        display: none;
+    }
+    
+    
+    .in{
+        display: block;
+      }
+    
+    
+    .flt .col-md-6 {
+        width: 50%;
+    }
+    
+    .in p {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 98px;
+    }
+    
+    
+    img {
+        height: 300px;
+    }
+    
+    
+    
+    .mmenu {
+        padding: 21px;
+    }
+    
+    
+    .flt {
+        margin-top: 10%;
+    }
+    
+    .contain {
+        left: -25px;
+    }
+    
+    .in2{
+      display: none;
+    }
+    
+    /* About Me */
+    
+    .dmenu {
+        display: none;
+    }
+    
+    .cover h1 {
+        text-align: center;
+        padding: 150px 0 174px 0;
+        color: white;
+        font-weight: 800;
+        font-size: 42px;
+    }
+    
+    #myBtn {
+        bottom: 13px;
+        right: 13px;
+        font-size: 24px;
+    }
+    
+    .r1 img {
+        height: 250px;
+    }
+    .r1 h2 {
+        font-size: 44px;
+    }
+    .r1 p {
+        font-size: 15px;
+    }
+    
+    span.sz {
+        font-size: 27px;
+    }
+    
+    span.hd {
+        font-size: 34px;
+    }
+    
+    
+    .details p {
+        font-size: 16px;
+    }
+    
+    /* Portfolio */
+    
+    
+    
+    .phead h5 {
+        font-size: 32px;
+    }
+    
+    .wset img {
+        height: 255px;
+    }
+    
+    .wset img:hover {
+        height: 260px;
+    }
+    
+    .wset h6 {
+        font-size: 20px;
+    }
+    
+    .wset {
+        text-align: center;
+        height: 330px;
+        padding: 40px 0;
+    }
+    
+    
+    .wset p {
+        color: #a5a5a7;
+        font-size: 12px;
+    }
+    
+    .cat {
+        height: 459px;
+        padding: 4px 0;
+    }
+    
+    
+    .cat h1 {
+        font-size: 20px;
+        height: 65px;
+    }
+    
+    
+    
+    
+    #nav {
+        padding-left: 30px;
+    }
+    
+    
+    .cat ul li a {
+        font-size: 12px;
+    }
+    
+    
+    li.chead a {
+        font-size: 15px !important;
+    }
+    
+    
+    .shd p {
+        font-size: 11px;
+        padding: 14px 0;
+    }
+    
+    .bsc {
+        margin-top: 14%;
+    }
+    
+    
+    .ov1 p {
+        padding: 72px 0;
+    }
+    
+    .ov2 p {
+        padding: 186PX 0;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+
+
+    @media (max-width: 575px) { 
+        .column {width:520px}
+
+
+        .phead h5 {
+            margin-left: 0;
+            text-align: center;
+        }
+        .main {
+            padding: 30px;
+        }
+        .main img{
+            height: 200px;
+        }
+        .main h1{
+            font-size: 25px;
+        }
+    }
+
+
+    @media (max-width: 768px) { 
+        .column {width:720px}
+
+
+        h1{
+            font-size: 50px;
+
+        }
+        .shd p {
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            /* background: #008efb; */
+            padding: 14px 0;
+            border-radius: 17px;
+            margin-top: 32px;
+        }
+
+    }
+
+
+    
+    /* Mobile Layout: 320px. */
+    
+    @media only screen and (max-width: 767px) {
+    
+    .column {width:300px}
+    
+    
+    .mmenu{
+        display: block;
+      }
+    
+    .out{
+        display: none;
+    }
+    
+    
+    
+    
+    .in{
+        display: block;
+      }
+    
+    
+      .flt {
+        margin-top: 10%;
+    }
+    
+    
+    .btn-primary {
+        font-size: 12px;
+        margin: 10px;
+    }
+    
+    
+    
+    .arrow {
+        border-width: 10px;
+    }
+    
+    #rtt {
+        color: white;
+        font-size: 12px;
+        margin-left: 41%;
+        margin-top: -34px;
+    }
+    
+    
+    .in{
+      display: none;
+    }
+    .in2 {
+        display: block;
+        text-align: center;
+        margin: 31px auto;
+    }
+    
+    
+    .contain {
+        top: 31px;
+        bottom: 0;
+        left: 9px;
+        right: 0;
+        position: absolute;
+    }
+    
+    
+    .set {
+        position: absolute;
+        width: 175px;
+        top: 53px;
+        left: 0;
+    }
+    
+    .set1{
+      display: none;
+    }
+    
+    .set{
+      display: block;
+    }
+    
+    
+    
+    .modal-body a {
+        font-size: 13px;
+    }
+    
+    #exampleModalLabel {
+        font-size: 18px;
+    }
+    
+    
+    .in2 p {
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .flt img {
+        height: 200px;
+    }
+    
+    /* About Me */
+    .dmenu {
+        display: none;
+    }
+    
+    .cover h1 {
+        padding: 0;
+        font-size: 27px;
+    }
+    
+    
+    #myBtn {
+        bottom: 13px;
+        right: 13px;
+        font-size: 24px;
+    }
+    
+    
+    .r1 {
+        margin: 40px 0;
+    }
+    
+    .r1 img {
+        height: 150px;
+    }
+    
+    .r1 h2 {
+        font-size: 26px;
+        margin: 24px 0;
+    }
+    
+    .r1 p {
+        font-size: 18px;
+    }
+    
+    span.sz {
+        font-size: 31px;
+        margin: 0 7px;
+    }
+    
+    .row.r2 {
+        padding: 20px;
+    }
+    
+    .row.r3 {
+        padding: 20px;
+    }
+    
+    
+    .details p {
+        font-size: 14px;
+    }
+    
+    span.hd {
+        font-size: 28px;
+        margin-right: 10px;
+    }
+    
+    
+    
+    .bar h2 {
+        font-size: 12px;
+    }
+    
+    
+    .percentCount {
+        font-size: 11px;
+    }
+    .proggress {
+        height: 12px !important;
+    }
+    
+    /* Portfolio */
+    
+    
+    .webdes {
+        margin: 38px 0;
+    }
+    
+    .phead h5 {
+        font-size: 18px;
+    }
+    
+    
+    .wset {
+        text-align: center;
+        height: 151px;
+        padding: 43px 0;
+    }
+    
+    .wset img {
+        height: 155%;
+        padding: 3%;
+    }
+    
+    
+    
+    
+    .wset img:hover {
+        height: 160%;
+        transition: .5s;
+    }
+    
+    
+    .wset h6 {
+        font-size: 18px;
+    }
+    .col-md-3.cat {
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    /* Wide Mobile Layout: 480px. */
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .column {width:450px}
+    
+    
+    
+    
+    .mmenu{
+        display: block;
+      }
+      
+    .out{
+        display: none;
+    }
+    
+    
+    .in{
+        display: block;
+      }
+    
+    
+    .flt .col-md-6 {
+        width: 50%;
+    }
+    
+    .in p {
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 98px;
+    }
+    
+    
+    img {
+        height: 300px;
+    }
+    
+    
+    
+    .mmenu {
+        padding: 21px;
+    }
+    
+    
+    
+    
+    .btn-primary {
+        font-size: 14px;
+    }
+    
+    .arw {
+        margin-right: 77%;
+        margin-top: -17px;
+    }
+    
+    
+    #rtt {
+        font-size: 17px;
+        margin-left: 16%;
+        margin-top: -40px;
+    }
+    
+    img {
+        height: 250px;
+    }
+    
+    
+    .in p {
+        font-size: 33px;
+        margin-top: 71px;
+    }
+    
+    .set1{
+      display: block;
+    }
+    
+    .set{
+      display: none;
+     
+    }
+    
+    .set1 {
+        position: absolute;
+        width: 83%;
+    }
+    .contain {
+        top: -3px;
+        bottom: 0;
+        left: 20px;
+        right: 0;
+        position: absolute;
+    }
+    
+    .in2{
+      display: none;
+    }
+    
+    /* About Me */
+    .dmenu {
+        display: none;
+    }
+    
+    .cover h1 {
+        padding: 0;
+        font-size: 27px;
+    }
+    
+    
+    #myBtn {
+        bottom: 13px;
+        right: 13px;
+        font-size: 24px;
+    }
+    
+    /* Portfolio */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
